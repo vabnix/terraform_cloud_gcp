@@ -18,6 +18,7 @@ resource "google_compute_instance" "vm_instance" {
   zone                      = var.zone
   machine_type              = "e2-micro"
   allow_stopping_for_update = true
+  tags                      = ["http-server"]
 
   boot_disk {
     initialize_params {

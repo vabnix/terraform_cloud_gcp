@@ -2,3 +2,5 @@
 .DS_Store
 credentials.json
 .terraform.lock
+tf_credentials.json
+.terraform.lock.hcl
